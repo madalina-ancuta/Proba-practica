@@ -1,0 +1,1293 @@
+{
+	"info": {
+		"_postman_id": "33e839df-ffb0-4b14-93c4-b688606b17a3",
+		"name": "Meteo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11308030"
+	},
+	"item": [
+		{
+			"name": "Req1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lat=47.15&lon=27.60&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "47.15"
+						},
+						{
+							"key": "lon",
+							"value": "27.60"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Req2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lat=47.95&lon=26.85&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "47.95"
+						},
+						{
+							"key": "lon",
+							"value": "26.85"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Req3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lat=53.41&lon=-8.24&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "53.41"
+						},
+						{
+							"key": "lon",
+							"value": "-8.24"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Req4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lat=64.96&lon=-19.02&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "64.96"
+						},
+						{
+							"key": "lon",
+							"value": "-19.02"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rea5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lat=57.35&lon=-50.09&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "57.35"
+						},
+						{
+							"key": "lon",
+							"value": "-50.09"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Bad Req",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/3hourly?lon=27.60&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"3hourly"
+					],
+					"query": [
+						{
+							"key": "lon",
+							"value": "27.60"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lat=26.82&lon=30.80&units=metric&lang =ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "26.82"
+						},
+						{
+							"key": "lon",
+							"value": "30.80"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang ",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lat=23.56&lon=23.90&units=metrics&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "23.56"
+						},
+						{
+							"key": "lon",
+							"value": "23.90"
+						},
+						{
+							"key": "units",
+							"value": "metrics"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lat=26.45&lon=78.67&units=metric&lang =ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "26.45"
+						},
+						{
+							"key": "lon",
+							"value": "78.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang ",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lat=16.45&lon=8.67&units=metric&lang =ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "16.45"
+						},
+						{
+							"key": "lon",
+							"value": "8.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang ",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current Weather5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lat=-3.45&lon=-30.67&units=metric&lang =ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-3.45"
+						},
+						{
+							"key": "lon",
+							"value": "-30.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang ",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current WeatherBad Req",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/current?lon=78.67&units=metric&lang =ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "26.45",
+							"disabled": true
+						},
+						{
+							"key": "lon",
+							"value": "78.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang ",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecast1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lat=-8.90&lon=-10.00&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-8.90"
+						},
+						{
+							"key": "lon",
+							"value": "-10.00"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecast2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lat=89.09&lon=90.21&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "89.09"
+						},
+						{
+							"key": "lon",
+							"value": "90.21"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecast3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lat=67.90&lon=10.00&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "67.90"
+						},
+						{
+							"key": "lon",
+							"value": "10.00"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecast4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lat=56.90&lon=10.67&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "56.90"
+						},
+						{
+							"key": "lon",
+							"value": "10.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecast5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lat=344&lon=54&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "344"
+						},
+						{
+							"key": "lon",
+							"value": "54"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1hForecastBad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/minutely?lon=-100.00&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"minutely"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "90000.09",
+							"disabled": true
+						},
+						{
+							"key": "lon",
+							"value": "-100.00"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16Day1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lat=90&lon=10&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "90"
+						},
+						{
+							"key": "lon",
+							"value": "10"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16Day2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lat=34.09&lon=90.67&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "34.09"
+						},
+						{
+							"key": "lon",
+							"value": "90.67"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16Day3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lat=14.56&lon=3.99&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "14.56"
+						},
+						{
+							"key": "lon",
+							"value": "3.99"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16Day4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lat=14.12&lon=19.95&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "14.12"
+						},
+						{
+							"key": "lon",
+							"value": "19.95"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16Day5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lat=9.12&lon=10.76&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "9.12"
+						},
+						{
+							"key": "lon",
+							"value": "10.76"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "16DayBad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/daily?lon=19.76&units=metric&lang=ro",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "14.89",
+							"disabled": true
+						},
+						{
+							"key": "lon",
+							"value": "19.76"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReq1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lat=12.14&lon=90.75&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "12.14"
+						},
+						{
+							"key": "lon",
+							"value": "90.75"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReq2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lat=-9.65&lon=78.89&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-9.65"
+						},
+						{
+							"key": "lon",
+							"value": "78.89"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReq3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lat=78.90&lon=-9.54&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "78.90"
+						},
+						{
+							"key": "lon",
+							"value": "-9.54"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReq4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lat=-12.14&lon=-75.65&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-12.14"
+						},
+						{
+							"key": "lon",
+							"value": "-75.65"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReq5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lat=-67.23&lon=45.21&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "-67.23"
+						},
+						{
+							"key": "lon",
+							"value": "45.21"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "120hReqBad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecast/hourly?lon=78.89&lang=ro&hours=48&units=metric",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecast",
+						"hourly"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "1.90",
+							"disabled": true
+						},
+						{
+							"key": "lon",
+							"value": "78.89"
+						},
+						{
+							"key": "lang",
+							"value": "ro"
+						},
+						{
+							"key": "hours",
+							"value": "48"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlerts1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=38.5&lon=-75.5",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "38.5"
+						},
+						{
+							"key": "lon",
+							"value": "-75.5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlerts2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=47.15&lon=26.60",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "47.15"
+						},
+						{
+							"key": "lon",
+							"value": "26.60"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlerts3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=45.94&lon=24.96",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "45.94"
+						},
+						{
+							"key": "lon",
+							"value": "24.96"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlerts4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=34.68&lon=56.37",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "34.68"
+						},
+						{
+							"key": "lon",
+							"value": "56.37"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlerts5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=38.5&lon=-75.5",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "38.5"
+						},
+						{
+							"key": "lon",
+							"value": "-75.5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SevereWeatherAlertsbad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/alerts?lat=45.89&lon=20.34",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"alerts"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "45.89"
+						},
+						{
+							"key": "lon",
+							"value": "20.34"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "b93c6bf99cmshff043a4ec22f1dcp17977ajsn9b425d858502",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-RapidAPI-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://weatherbit-v1-mashape.p.rapidapi.com",
+			"type": "string"
+		}
+	]
+}

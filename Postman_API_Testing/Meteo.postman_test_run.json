@@ -1,0 +1,810 @@
+{
+	"id": "0b99880a-9a55-402c-a1cc-8362a5a00cd5",
+	"name": "Meteo",
+	"timestamp": "2022-08-09T17:50:10.608Z",
+	"collection_id": "11308030-33e839df-ffb0-4b14-93c4-b688606b17a3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "202f7560-4d5a-42f5-9cee-9d86f8d63a7a",
+			"name": "Req1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=47.15&lon=27.60&units=metric&lang=ro",
+			"time": 305,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				305
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5e8c1d26-2802-4c58-93db-e20077fc5978",
+			"name": "Req2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=47.95&lon=26.85&units=metric&lang=ro",
+			"time": 49,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "01d68e6a-719e-4130-9faa-6fda98ddf152",
+			"name": "Req3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=53.41&lon=-8.24&units=metric&lang=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9cac77ba-8472-4e6d-bf47-428b7bbee25d",
+			"name": "Req4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=64.96&lon=-19.02&units=metric&lang=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "44c23cb9-83d1-4292-b28a-b31b3094c948",
+			"name": "Rea5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lat=57.35&lon=-50.09&units=metric&lang=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1db237ba-2bac-492e-a144-1ba3cbb97ed3",
+			"name": "Bad Req",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/3hourly?lon=27.60&units=metric&lang=ro",
+			"time": 49,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e64ea6f3-d764-4701-bebb-4037ccf5b76f",
+			"name": "Current Weather1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lat=26.82&lon=30.80&units=metric&lang%20=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4f3221a9-2131-4092-8669-7b6a81fd89e0",
+			"name": "Current Weather2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lat=23.56&lon=23.90&units=metrics&lang=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5e69632f-edce-4d9f-bb3e-b5f08f537aea",
+			"name": "Current Weather3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lat=26.45&lon=78.67&units=metric&lang%20=ro",
+			"time": 49,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a5e2d704-801e-426f-a93d-6c7fadcdea6e",
+			"name": "Current Weather4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lat=16.45&lon=8.67&units=metric&lang%20=ro",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f1f1b853-a635-4be4-9f35-a6279b73a425",
+			"name": "Current Weather5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lat=-3.45&lon=-30.67&units=metric&lang%20=ro",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e8e3f90f-e3fb-41ec-9123-ee2ebc5ba586",
+			"name": "Current WeatherBad Req",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/current?lon=78.67&units=metric&lang%20=ro",
+			"time": 45,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				45
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "763de75b-dbab-46b5-96f1-1fa32f859694",
+			"name": "1hForecast1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lat=-8.90&lon=-10.00&units=metric",
+			"time": 90,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c0018491-f35c-45b0-a1b0-23815ba3ccf6",
+			"name": "1hForecast2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lat=89.09&lon=90.21&units=metric",
+			"time": 52,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				52
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "eb295930-33f7-4af5-b4c0-8aee36f59447",
+			"name": "1hForecast3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lat=67.90&lon=10.00&units=metric",
+			"time": 49,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "655b5561-4800-4569-b7a8-dd67867d3322",
+			"name": "1hForecast4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lat=56.90&lon=10.67&units=metric",
+			"time": 52,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				52
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e85b6ae2-6cb5-49cb-85a1-457543f68a86",
+			"name": "1hForecast5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lat=344&lon=54&units=metric",
+			"time": 51,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "afc10794-5804-4fa1-a1bd-a10d7cb839b3",
+			"name": "1hForecastBad",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/minutely?lon=-100.00&units=metric",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5c39fb90-bdcc-4ff7-9b41-7ab4672c5db9",
+			"name": "16Day1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=90&lon=10&units=metric&lang=ro",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d50e29cd-06d7-4bd9-9acd-8b290e0531ac",
+			"name": "16Day2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=34.09&lon=90.67&units=metric&lang=ro",
+			"time": 52,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				52
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "11726d5b-fe4b-4954-9c57-7af64f2333b6",
+			"name": "16Day3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=14.56&lon=3.99&units=metric&lang=ro",
+			"time": 52,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				52
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de815a29-0103-4584-b654-36b39241170f",
+			"name": "16Day4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=14.12&lon=19.95&units=metric&lang=ro",
+			"time": 47,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ffe43aa0-1b3f-4b3e-84ef-06c03a8fc29e",
+			"name": "16Day5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lat=9.12&lon=10.76&units=metric&lang=ro",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "90c3e14f-b944-403b-8e1e-3e4c497890be",
+			"name": "16DayBad",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?lon=19.76&units=metric&lang=ro",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "65dd44a9-b5a3-4ba8-8a9c-4bc7866f9b09",
+			"name": "120hReq1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lat=12.14&lon=90.75&lang=ro&hours=48&units=metric",
+			"time": 59,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				59
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b76cb535-21c2-49ca-8fad-b837a5e5090e",
+			"name": "120hReq2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lat=-9.65&lon=78.89&lang=ro&hours=48&units=metric",
+			"time": 57,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				57
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "48671c18-8f62-47f7-b478-6176f5e3310d",
+			"name": "120hReq3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lat=78.90&lon=-9.54&lang=ro&hours=48&units=metric",
+			"time": 45,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				45
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "45145bc2-a0a8-443b-8cf2-4d734e10fa1e",
+			"name": "120hReq4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lat=-12.14&lon=-75.65&lang=ro&hours=48&units=metric",
+			"time": 48,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				48
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3690b516-c753-4a7f-b20a-35e5ad240a16",
+			"name": "120hReq5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lat=-67.23&lon=45.21&lang=ro&hours=48&units=metric",
+			"time": 51,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5d5a2d58-71b5-4325-a0ae-71bb4738d4bc",
+			"name": "120hReqBad",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?lon=78.89&lang=ro&hours=48&units=metric",
+			"time": 47,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "180acfb8-3d8b-4e60-b370-be446284a036",
+			"name": "SevereWeatherAlerts1",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=38.5&lon=-75.5",
+			"time": 53,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				53
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "137ffb14-37e6-4b73-9326-e6aeb34227f3",
+			"name": "SevereWeatherAlerts2",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=47.15&lon=26.60",
+			"time": 47,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7d9b1268-5166-4b4e-8f5a-c15692aed901",
+			"name": "SevereWeatherAlerts3",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=45.94&lon=24.96",
+			"time": 49,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				49
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fe2cfab7-6259-4f83-ba2b-3ac44522db51",
+			"name": "SevereWeatherAlerts4",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=34.68&lon=56.37",
+			"time": 47,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				47
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "34b0e7a8-e7a6-4a33-a7d9-01f780c8c06f",
+			"name": "SevereWeatherAlerts5",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=38.5&lon=-75.5",
+			"time": 46,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bfc087f1-4d5a-4ed7-868d-3add0d73cc17",
+			"name": "SevereWeatherAlertsbad",
+			"url": "https://weatherbit-v1-mashape.p.rapidapi.com/alerts?lat=45.89&lon=20.34",
+			"time": 45,
+			"responseCode": {
+				"code": 429,
+				"name": "Too Many Requests"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				45
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2054,
+	"collection": {
+		"requests": [
+			{
+				"id": "202f7560-4d5a-42f5-9cee-9d86f8d63a7a",
+				"method": "GET"
+			},
+			{
+				"id": "5e8c1d26-2802-4c58-93db-e20077fc5978",
+				"method": "GET"
+			},
+			{
+				"id": "01d68e6a-719e-4130-9faa-6fda98ddf152",
+				"method": "GET"
+			},
+			{
+				"id": "9cac77ba-8472-4e6d-bf47-428b7bbee25d",
+				"method": "GET"
+			},
+			{
+				"id": "44c23cb9-83d1-4292-b28a-b31b3094c948",
+				"method": "GET"
+			},
+			{
+				"id": "1db237ba-2bac-492e-a144-1ba3cbb97ed3",
+				"method": "GET"
+			},
+			{
+				"id": "e64ea6f3-d764-4701-bebb-4037ccf5b76f",
+				"method": "GET"
+			},
+			{
+				"id": "4f3221a9-2131-4092-8669-7b6a81fd89e0",
+				"method": "GET"
+			},
+			{
+				"id": "5e69632f-edce-4d9f-bb3e-b5f08f537aea",
+				"method": "GET"
+			},
+			{
+				"id": "a5e2d704-801e-426f-a93d-6c7fadcdea6e",
+				"method": "GET"
+			},
+			{
+				"id": "f1f1b853-a635-4be4-9f35-a6279b73a425",
+				"method": "GET"
+			},
+			{
+				"id": "e8e3f90f-e3fb-41ec-9123-ee2ebc5ba586",
+				"method": "GET"
+			},
+			{
+				"id": "763de75b-dbab-46b5-96f1-1fa32f859694",
+				"method": "GET"
+			},
+			{
+				"id": "c0018491-f35c-45b0-a1b0-23815ba3ccf6",
+				"method": "GET"
+			},
+			{
+				"id": "eb295930-33f7-4af5-b4c0-8aee36f59447",
+				"method": "GET"
+			},
+			{
+				"id": "655b5561-4800-4569-b7a8-dd67867d3322",
+				"method": "GET"
+			},
+			{
+				"id": "e85b6ae2-6cb5-49cb-85a1-457543f68a86",
+				"method": "GET"
+			},
+			{
+				"id": "afc10794-5804-4fa1-a1bd-a10d7cb839b3",
+				"method": "GET"
+			},
+			{
+				"id": "5c39fb90-bdcc-4ff7-9b41-7ab4672c5db9",
+				"method": "GET"
+			},
+			{
+				"id": "d50e29cd-06d7-4bd9-9acd-8b290e0531ac",
+				"method": "GET"
+			},
+			{
+				"id": "11726d5b-fe4b-4954-9c57-7af64f2333b6",
+				"method": "GET"
+			},
+			{
+				"id": "de815a29-0103-4584-b654-36b39241170f",
+				"method": "GET"
+			},
+			{
+				"id": "ffe43aa0-1b3f-4b3e-84ef-06c03a8fc29e",
+				"method": "GET"
+			},
+			{
+				"id": "90c3e14f-b944-403b-8e1e-3e4c497890be",
+				"method": "GET"
+			},
+			{
+				"id": "65dd44a9-b5a3-4ba8-8a9c-4bc7866f9b09",
+				"method": "GET"
+			},
+			{
+				"id": "b76cb535-21c2-49ca-8fad-b837a5e5090e",
+				"method": "GET"
+			},
+			{
+				"id": "48671c18-8f62-47f7-b478-6176f5e3310d",
+				"method": "GET"
+			},
+			{
+				"id": "45145bc2-a0a8-443b-8cf2-4d734e10fa1e",
+				"method": "GET"
+			},
+			{
+				"id": "3690b516-c753-4a7f-b20a-35e5ad240a16",
+				"method": "GET"
+			},
+			{
+				"id": "5d5a2d58-71b5-4325-a0ae-71bb4738d4bc",
+				"method": "GET"
+			},
+			{
+				"id": "180acfb8-3d8b-4e60-b370-be446284a036",
+				"method": "GET"
+			},
+			{
+				"id": "137ffb14-37e6-4b73-9326-e6aeb34227f3",
+				"method": "GET"
+			},
+			{
+				"id": "7d9b1268-5166-4b4e-8f5a-c15692aed901",
+				"method": "GET"
+			},
+			{
+				"id": "fe2cfab7-6259-4f83-ba2b-3ac44522db51",
+				"method": "GET"
+			},
+			{
+				"id": "34b0e7a8-e7a6-4a33-a7d9-01f780c8c06f",
+				"method": "GET"
+			},
+			{
+				"id": "bfc087f1-4d5a-4ed7-868d-3add0d73cc17",
+				"method": "GET"
+			}
+		]
+	}
+}
